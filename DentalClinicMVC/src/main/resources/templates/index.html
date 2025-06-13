@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DentalClinicMVC</title>
+</head>
+<body>
+<p>
+    Hola Paciente: <span th:text="${patient.name}"/>, <span th:text="${patient.lastName}"/>
+</p>
+<p>
+    Hola Odontologo: <span th:text="${dentist.name}"/>, <span th:text="${dentist.lastName}"/>, <span th:text="${dentist.registration}"/>
+</p>
+
+</body>
+</html>
