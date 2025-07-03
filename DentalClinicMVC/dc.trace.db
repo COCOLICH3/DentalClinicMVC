@@ -1,0 +1,3 @@
+2025-06-19 11:55:16.571488-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PATIENTS" not found (this database is empty); SQL statement:
+SELECT * FROM PATIENTS WHERE ID = ? [42104-232]
